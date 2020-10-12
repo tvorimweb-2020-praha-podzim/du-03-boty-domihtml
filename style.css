@@ -21,3 +21,33 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+div {
+    border: 2px solid hotpink;
+}
+.slogan {
+    font-family: 'Rubik', sans-serif;
+    size: 16px;
+    font-weight: medium;
+}
+
+.cena {
+    font-family: 'Rubik', sans-serif;
+    size: 28px;
+    font-weight: medium;
+}
+
+.zaruka {
+    size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+.nazev {
+    font-family: 'Rubik', sans-serif;
+    size: 20px;
+    text-transform: uppercase;
+}
+.produkt, .popis, .velikosti, .parametr, .tlacitko {
+    font-family: 'Rubik', sans-serif;
+    size: 14px;
+}
