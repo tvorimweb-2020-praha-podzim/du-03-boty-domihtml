@@ -22,32 +22,63 @@ body {
 
 /* ----- zde zacni psat vlastni css ----- */
 
-
+/*-----Písmo ----- */
 div {
     border: 2px solid hotpink;
 }
 .slogan {
     font-family: 'Rubik', sans-serif;
-    size: 16px;
-    font-weight: medium;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 30px 0 0 0;
 }
 
 .cena {
     font-family: 'Rubik', sans-serif;
-    size: 28px;
-    font-weight: medium;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
 }
 
 .zaruka {
-    size: 12px;
+    font-size: 12px;
     font-family: 'Rubik', sans-serif;
+    color: white;
 }
 .nazev {
     font-family: 'Rubik', sans-serif;
-    size: 20px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .produkt, .popis, .velikosti, .parametr, .tlacitko {
     font-family: 'Rubik', sans-serif;
-    size: 14px;
+    font-size: 14px;
+}
+
+/* ----- Boxy ----- */
+
+.zbozi {
+    display: flex;
+    max-width: 670px;
+    max-height: 440px;
+    box-shadow: 12px 12px 12px grey;
+    position: relative;
+    left: 100px;
+    border-radius: 20px;
+}
+.vizual {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    padding: 30px;
+    max-width: 50%;
+}
+.cenovka {
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+}
+.bota {
+    position: relative;
+    right: 110px;
+    z-index: 100;
 }
